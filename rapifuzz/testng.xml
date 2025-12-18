@@ -12,7 +12,7 @@ Tip: If in Eclipse, Select the line press Ctrl + Shift + C (Windows/Linux) or Cm
  
 <!--<suite name="Rapifuzz_Automation_Parallel" parallel="tests" thread-count="2">-->
 
-    <test name="ErailHomeTest">
+    <test name="ErailHomeTests">
         <classes>
             <class name="tests.ErailHomeTest"/>
         </classes>
