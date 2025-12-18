@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- ========================
+Default sequential test run
+========================== -->
+<suite name="Rapifuzz_Automation">
+
+<!-- ==========================================================
+Note: To execute tests in Parallel, uncomment the below suite section and comment out the above one. 
+Tip: If in Eclipse, Select the line press Ctrl + Shift + C (Windows/Linux) or Cmd + Shift + C (Mac) to comment/uncomment
+ =========================================================== -->
+ 
+<!--<suite name="Rapifuzz_Automation_Parallel" parallel="tests" thread-count="2">-->
+
+    <test name="ErailHomeTest">
+        <classes>
+            <class name="tests.ErailHomeTest"/>
+        </classes>
+    </test>
+    <!-- 
+		<test name="OrangeHRMLoginTest">
+        <classes>
+            <class name="tests.OrangeHRMLoginTest"/>
+        </classes>
+    </test>
+	-->
+     
+</suite>
